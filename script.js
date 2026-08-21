@@ -4,11 +4,11 @@ function createTable() {
 
     let table = document.getElementById("myTable");
 
-    for (let i = 0; i <= rows; i++) {
+    for (let i = 0; i < rows; i++) {
 
         let tr = document.createElement("tr");
 
-        for (let j = 0; j <= col; j++) {
+        for (let j = 0; j < col; j++) {
 
             if (i === 0) {
                 let th = document.createElement("th");
